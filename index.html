@@ -6,11 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- LINK -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  </svg>
   <title>Dropbox</title>
 </head>
 <body>
@@ -79,13 +80,14 @@
         <!-- Jumbotron column -->
         <div class="flex-container">
           <div class="jumbotron-text">
-            <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integro per ottimizzare il flusso di lavoro esistente.
+            <p>
+              Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integro per ottimizzare il flusso di lavoro esistente.
             </p>
 
             <a href="#" class="buttons bg-blue">inizia la tua prova gratuita</a>
 
             <span>Annulla in qualsiasi momento</span>
-            <span><a href="#"><i class="fa-solid fa-arrow-down"></i></a></span>
+            <span><i class="fa-solid fa-arrow-down fa-6x"></i></span>
           </div>
           <div class="jumbotron-img">
             <img src="img/jumbo.png" alt="Jumbo img">
@@ -94,7 +96,7 @@
       </div>
     </div>
 
-    <!-- Section Plan Buy -->
+    <!-- SECTION BUY PLAN -->
     <section class="container-small">
       <div class="buy-section">
         <h2>Trova il piano Dropbox Business che fa per te</h2>
@@ -104,10 +106,11 @@
           <span class="fake-toggle-full"></span><span>Fatturazione mensile</span> 
           <span class="fake-toggle-empty"></span><span>Fatturazione mensile</span>
         </div>
-
-        <!-- Buy option -->
+    
         <div class="three-col flex-container">
-          <div class="buy-cols">
+          <!-- Buy option -->
+          <div class="buy-cols col-border">
+            <!-- Title -->
             <div class="col-title">
               <span><i class="fa-regular fa-user"></i> Singolo</span>
             </div>
@@ -115,28 +118,183 @@
             <!-- col option -->
             <div class="col-padding">
               <h5 class="font-big">Professional</h5>
-              <span class="font-medium"> 19,99 € </span>
+              <span class="font-medium">19,99 € </span>
               <span class="color-light-grey">/mese</span>
-              <ul>
-                <li><i class="fa-regular fa-user"></i> 1 utente</li>
-                <li><i class="fa-regular fa-user"></i> 3 TB di spazio di archiviazione sicuro</li>
-                <li><i class="fa-regular fa-user"></i> Funzioni di produttività premium e condivisione file semplice e sicura</li>
+              <!-- ul service -->
+              <ul class="padding-big fa-ul">
+                <li><span class="fa-li"><i class="fa-regular fa-user"></i></span> 1 utente</li>
+                <li><span class="fa-li"><i class="fa-regular fa-folder"></i></span> 3 TB di spazio di archiviazione sicuro</li>
+                <li><span class="fa-li"><i class="fa-solid fa-pen-clip"></i></span> Funzioni di produttività premium e condivisione file semplice e sicura</li>
               </ul>
-              
+              <!-- buy button -->
+              <div>
+                <a class="buttons bg-blue"> Prova gratis per 30 giorni</a>
+                <span class="padding-small">oppure <a href="#" class="color-blue">acquista ora</a></span>
+              </div>
+              <!-- hr -->
+              <div>
+                <hr>
+              </div>
+
+              <!-- ul recap -->
+              <div>
+                <span class="font-medium"> Punti salienti del piano</span>
+                <ul class="fa-ul">
+                  <li><span class="fa-li"><i class="fa-solid fa-check color-blue"></i></span> Invia fino a 100 GB con Dropbox Transfert</li>
+                  <li><span class="fa-li"><i class="fa-solid fa-check color-blue"></i></span> Cartelle disponibili si dispositivi diversi</li>
+                  <li><span class="fa-li"><i class="fa-solid fa-check color-blue"></i></span> Pulizia remota dell'account</li>
+                  <li><span class="fa-li"><i class="fa-solid fa-check color-blue"></i></span> Filigrana documento</li>
+                  <li><span class="fa-li"><i class="fa-solid fa-check color-blue"></i></span> Assistenza prioritaria via email e chat</li>
+                </ul>
+              </div>
             </div>
-
           </div>
-          <div class="buy-cols">
+          <!-- End Col -->
 
+          <!-- Buy option -->
+          <div class="buy-cols col-border">
+            <!-- Title -->
+            <div class="col-title">
+              <span><i class="fa-regular fa-building"></i> Team</span>
+            </div>
+            
+            <!-- col option -->
+            <div class="col-padding">
+              <h5 class="font-big">Standard</h5>
+              <span class="font-medium">19,99 € </span>
+              <span class="color-light-grey">/ utente / mese, a partire da 3 utenti</span>
+              <!-- ul service -->
+              <ul class="padding-big fa-ul">
+                <li><span class="fa-li"><i class="fa-solid fa-user-plus"></i></span> 1 utente</li>
+                <li><span class="fa-li"><i class="fa-regular fa-folder"></i> </span>3 TB di spazio di archiviazione sicuro</li>
+                <li><span class="fa-li"><i class="fa-regular fa-face-smile"></i></span>  Funzioni di produttività premium e condivisione file semplice e sicura</li>
+              </ul>
+              <!-- buy button -->
+              <div>
+                <a class="buttons bg-blue"> Prova gratis per 30 giorni</a>
+                <span class="padding-small">oppure <a href="#" class="color-blue">acquista ora</a></span>
+              </div>
+              <!-- hr -->
+              <div>
+                <hr>
+              </div>
+
+              <!-- ul recap -->
+              <div>
+                <span class="font-medium"> Punti salienti del piano</span>
+                <ul class="fa-ul">
+                  <li><span class="fa-li"><i class="fa-solid fa-check color-blue"></i></span> Invia fino a 100 GB con Dropbox Transfert</li>
+                  <li><span class="fa-li"><i class="fa-solid fa-check color-blue"></i></span> Cartelle disponibili si dispositivi diversi</li>
+                  <li><span class="fa-li"><i class="fa-solid fa-check color-blue"></i></span> Pulizia remota dell'account</li>
+                  <li><span class="fa-li"><i class="fa-solid fa-check color-blue"></i> </span>Filigrana documento</li>
+                  <li><span class="fa-li"><i class="fa-solid fa-check color-blue"></i> </span>Assistenza prioritaria via email e chat</li>
+                  <li><span class="fa-li"><i class="fa-solid fa-check color-blue"></i></span> Assistenza prioritaria via email e chat</li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div class="buy-cols">
+          <!-- End Col -->
 
+          <!-- Buy option -->
+          <div class="buy-cols col-border">
+            <!-- Title -->
+            <div class="col-title">
+              <span><i class="fa-regular fa-building"></i> Team</span>
+            </div>
+            
+            <!-- col option -->
+            <div class="col-padding">
+              <h5 class="font-big">Advanced</h5>
+              <span class="font-medium">19,99 € </span>
+              <span class="color-light-grey">/ utente / mese, a partire da 3 utenti</span>
+              <!-- ul service -->
+              <ul class="padding-big fa-ul">
+                <li><span class="fa-li"><i class="fa-solid fa-user-plus"></i></span> 1 utente</li>
+                <li><span class="fa-li"><i class="fa-regular fa-face-smile"></i></span> 3 TB di spazio di archiviazione sicuro</li>
+                <li><span class="fa-li"><i class="fa-solid fa-pen-clip"></i></span> Funzioni di produttività premium e condivisione file semplice e sicura</li>
+              </ul>
+              <!-- buy button -->
+              <div>
+                <a class="buttons bg-blue"> Prova gratis per 30 giorni</a>
+                <span class="padding-small">oppure <a href="#" class="color-blue">acquista ora</a></span>
+              </div>
+              <!-- hr -->
+              <div>
+                <hr>
+              </div>
+
+              <!-- ul recap -->
+              <div>
+                <span class="font-medium"> Punti salienti del piano</span>
+                <ul class="fa-ul">
+                  <li><span class="fa-li"><i class="fa-solid fa-check color-blue"></i></span> Invia fino a 100 GB con Dropbox Transfert</li>
+                  <li><span class="fa-li"><i class="fa-solid fa-check color-blue"></i></span> Cartelle disponibili si dispositivi diversi</li>
+                  <li><span class="fa-li"><i class="fa-solid fa-check color-blue"></i></span> Pulizia remota dell'account</li>
+                  <li><span class="fa-li"><i class="fa-solid fa-check color-blue"></i></span> Filigrana documento</li>
+                  <li><span class="fa-li"><i class="fa-solid fa-check color-blue"></i></span> Assistenza prioritaria via email e chat</li>
+                  <li><span class="fa-li"><i class="fa-solid fa-check color-blue"></i></span> Assistenza prioritaria via email e chat</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- End Col --> 
+          
+          
+        </div>
+      </div>
+    </section>
+    <!-- END SECTION -->
+
+    <!-- SELL OFFICE CONTACT -->
+    <section class="padding-small">
+      <div class="container-small col-border">
+        <div class="col-title">
+          <!-- Title -->
+          <span><i class="fa-regular fa-building"></i> Team</span>
+        </div>
+        <div class="flex-container two-col col-padding">
+          <div class="big-col">
+            <div>
+              <span class="font-big">Enterprise</span>
+              <span class="font-medium">Contatta l'ufficio vendite per i prezzi</span>
+              <span>Soluzioni personalizzate e supporto si misura per aiutare i professionisti IT
+                nella gestione su qualsiasi scala</span>
+            </div>
+          </div>
+          
+          <div class="small-col">
+            <!-- Button -->
+            <a class="buttons bg-blue">Contatta l'ufficio vendite</a>
           </div>
         </div>
       </div>
-
-      
     </section>
+
+    <!-- FIND PARTNER -->
+    <section class="padding-big">
+      <div class="container-small">
+        <div class="flex-container two-col">
+          <!-- find partner img -->
+          <div class="half-col">
+            <img src="img/partner.png" alt="partner img">
+          </div>
+          <!-- find partner text -->
+          <div class="half-col">
+            <div class="parter-content-text">
+              <h3 class="font-big">Entra in contatto con un partner Dropbox</h3>
+              <p>
+                Trova un partner Dropbox e HalloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obiettivi aziendali,
+                tra cui implementare, integrazione, gestione e supporto continui. 
+              </p>
+              <!-- Button -->
+              <a class="buttons">Trova un partner</a>
+            </div>         
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END SECTION -->
+
   </main>
 </body>
 </html>

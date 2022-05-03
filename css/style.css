@@ -8,6 +8,7 @@
 /* GENERAL */
 body{
   font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
 }
 
 img{
@@ -20,58 +21,94 @@ ul {
 
 p{
   font-size: 15px;
-  padding: 10px 0 40px 0;
-  font-weight: 600;
+  padding: 10px 0 40px;
 }
 
 span{
   font-size: 15px;
-  font-weight: 600;
 }
+
+/* Buttons */
 .buttons{
-  padding: 6px 20px;
+  display: inline-block;
+  border-style: solid;
+  border-width: 1px;
+  padding: 7px 15px;
+  margin-top: 4px;
 }
 
 .flex-container{
   display: flex;
 }
 
+/* Container */
 .container-large{
   width: 80%;
-  max-width: 1500px;
+  max-width: 1900px;
   margin: 0 auto;
 }
 
 .container-small{
   width: 70%;
-  max-width: 1200px;
+  max-width: 1900px;
   margin: 0 auto;
 }
 
+/* Column */
 .three-col{
   justify-content: space-between;
   padding: 35px 0;
 }
 
+.two-col{
+  justify-content: space-between;
+  padding: 35px 0;
+}
+
+.half-col{
+  width: calc((100% / 2) - 30px);
+}
+
+.big-col{
+  width: 70%
+}
+
+.small-col{
+  width: 30%
+}
+
 .col-title{
   border-bottom: 1px solid #e8e8e9;
-  font-weight: 600px;
   text-align: center;
   padding: 6px 0;
 }
 
+.col-padding{
+  padding: 20px 20px;
+}
+
+/* Font */
 .font-big{
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 900;
-  padding: 25px 0 8px 0;
 }
 
 .font-medium{
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 900;
-  padding: 8px 0 8px 0;
+  padding: 8px 0 8px;
   display: block;
 }
+
+/* Padding */
+.padding-big{
+  padding: 50px 0;
+}
+
+.padding-small{
+  padding: 40px 0;
+}
+
 /* HEADER */
 header {
   height: 80px;
@@ -80,6 +117,7 @@ header {
   top: 0;
   left: 0;
   background-color: white;
+  min-width: 1000px;
   
   z-index: 10;
 }
@@ -92,9 +130,9 @@ header ul{
 header a {
   text-decoration: none;
   color: inherit;
-  font-weight: 600;
 }
 
+/* Nav */
 nav {
   display: flex;
   justify-content: space-between;
@@ -112,6 +150,7 @@ nav {
 main{
   margin-top: 80px;
 }
+
 /* Jumbotron */
 .jumbotron {
   height: 43.75rem;
@@ -133,11 +172,11 @@ main{
   width: 70%;
   bottom: -0.625rem;
   right: -3.625rem;
+
 }
 
 .jumbotron-text a{
   text-decoration: none;
-  font-weight: 600;
 }
 
 .jumbotron-text span{
@@ -146,11 +185,6 @@ main{
   margin-bottom: 30px;
   font-size: 13px;
   font-weight: 600;
-}
-
-.jumbotron-text i{
-  font-size: 36px;
-  font-weight: 900;
 }
 
 /* Section */
@@ -165,6 +199,7 @@ main{
   padding-bottom: 30px;
 }
 
+/* Toggle */
 .fake-toggle-full{
   width: 20px;
   height: 20px;
@@ -196,25 +231,48 @@ main{
 
 /* Buy Cols */
 .buy-cols{
-  width: calc((100% / 3) - 30px);
+  width: calc((100% / 3) - 40px);
+}
+
+.col-border{
   border: 1px solid #e8e8e9;
 }
 
-.col-padding{
-  padding: 0 20px;
-}
-
 .col-padding li{
-  padding: 20px 0 0 0;
+  padding: 20px 0 0;
   font-size: 15px;
-
 }
 
-.col-padding li:first-child{
-  padding: 60px 0 0px 0 ;
-
+.col-padding span{
+  display: block;
 }
 
+.col-padding li span{
+  display: inline;
+}
+
+.col-padding hr{
+  width: 60px;
+  margin-bottom: 30px;
+}
+.fa-ul li:last-child{
+  padding-bottom: 120px;
+}
+
+/* Office contact column */
+.small-col .buttons{
+  padding: 5px 60px;
+}
+
+/* Partner contact */
+.parter-content-text h3{
+  padding: 50px 0 20px;
+}
+
+.parter-content-text p{
+  padding: 0 0 20px;
+  line-height: 28px;  
+}
 /* COLORS */
 .bg-blue{
   border: 1px solid #0161ff;;
@@ -224,4 +282,15 @@ main{
 
 .color-light-grey{
   color: #6e7c8a; 
+}
+
+.color-blue{
+  color: #2170ff;
+}
+
+.fa-ul{
+  margin: 0 1.5em;
+}
+.fa-li{
+  width: 0 -1.5em;
 }
