@@ -1,0 +1,104 @@
+/* RESET */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* GENERAL */
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+img{
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.buttons{
+  padding: 6px 20px;
+}
+
+.flex-container{
+  display: flex;
+}
+
+/* HEADER */
+header {
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: white;
+  
+  z-index: 10;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+/* Menus */
+header ul {
+  display: flex;
+  align-items: center;
+}
+header a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+}
+.header-menu li {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+p{
+  font-size: 15px;
+}
+/* MAIN */
+main{
+  margin-top: 80px;
+}
+/* Jumbotron */
+.jumbotron {
+  height: 700px;
+  background-color: #b4d0e7;
+}
+
+.conteiner-jumbotron{
+  width: 80%;
+  margin: 0 auto;
+}
+.jumbotron-title h1 {
+  font-size: 70px;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.jumbotron-text{
+  width: 30%;
+}
+
+.jumbotron-img{
+  position: relative;
+  width: 70%;
+}
+
+.img-absolute{
+  position: absolute; 
+  right: 0;
+  top: 10;
+  width: 800px;
+}
+
+/* COLORS */
+.bg-blue{
+  background-color: #0161ff;
+  color: white;
+}
