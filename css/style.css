@@ -50,6 +50,13 @@ span{
 }
 
 /* Container */
+.container-max{
+  width: 90%;
+  max-width: 1900px;
+  margin: 0 auto;
+}
+
+
 .container-large{
   width: 80%;
   max-width: 1900px;
@@ -98,6 +105,9 @@ span{
   width: 30%;
 }
 
+.min-col{
+  width: 20%;
+}
 .col-title{
   border-bottom: 1px solid #e8e8e9;
   text-align: center;
@@ -211,9 +221,9 @@ main{
 
 .jumbotron-img{
   position: relative;
-  width: 70%;
-  bottom: -0.325rem;
+  max-width: 900px;
   right: -3.625rem;
+  bottom: 0;
 
 }
 
@@ -231,7 +241,7 @@ main{
 
 /*  Buy Section */
 .buy-section{
-  padding-top: 200px;
+  padding-top: clamp(100px, 50%, 250px);
 }
 
 .buy-section h2{
@@ -344,12 +354,15 @@ main{
 }
 
 /* Frequently asked */
-.question-text span{
-  display: block;
+#border-top{
+  border-top: 1px solid #dcdcde;
+}
+.question-text i{
+  align-self: center;
 }
 
-.question-text span:first-child{
-  border-top: 1px solid #dcdcde;
+.question-text span{
+  display: inline;
 }
 /* FONT AWSOME LIST */
 .fa-ul{
@@ -358,9 +371,48 @@ main{
 .fa-li{
   width: 0 -1.5em;
 }
+
+/* FOOTER */
+footer{
+  color: white;
+}
+
+footer h4{
+  font-size: 20px;
+  padding: 30px 0 20px;
+}
+
+footer li{
+  font-size: 15px;
+  font-weight: 500;
+  padding: 5px 0;
+}
+
+footer ul{
+  padding-bottom: 30px;
+}
+
+footer hr{
+  width: 120px;
+  margin: 50px 0;
+  border-top: 1px solid #bfbfbf;
+}
+
+footer .padding-big{
+  padding: 70px;
+}
+
+footer span{
+  font-size: 13px;
+}
+
+/* Lenguage */
+.lenguage *{
+  vertical-align: middle;
+}
 /* COLORS */
 .bg-blue{
-  border: 1px solid #0161ff;;
+  border: 1px solid #0161ff;
   background-color: #0161ff;
   color: white;
 }
@@ -381,7 +433,7 @@ main{
 .bg-dark-red{
   background-color: #d50120;
 }
-.bg-blue{
+.bg-dark-blue{
   background-color: #0d2481; 
 }
 .bg-yellow{
@@ -393,6 +445,11 @@ main{
 .bg-light-grey{
   background-color: #f5f5f5; 
 }
+
+.bg-black{
+  background-color: #000000;
+}
+
 .color-light-grey{
   color: #6e7c8a; 
 }
@@ -407,6 +464,10 @@ main{
 
 .color-wine{
   color: #60092b;
+}
+
+.color-grey{
+  color: #656565; 
 }
 
 .bg-bottons-white{
