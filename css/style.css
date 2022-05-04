@@ -55,18 +55,13 @@ span{
 }
 
 /* Column */
-.three-col{
+.indent-col{
   justify-content: space-between;
-  padding: 35px 0;
-}
-
-.two-col{
-  justify-content: space-between;
-  padding: 35px 0;
+  flex-wrap: wrap;
 }
 
 .half-col{
-  width: calc((100% / 2) - 30px);
+  width: calc((100% / 2) - 25px);
 }
 
 .big-col{
@@ -100,9 +95,13 @@ span{
   display: block;
 }
 
+.font-semi{
+  font-size: 24px;
+  font-weight: 700;
+}
 /* Padding */
 .padding-big{
-  padding: 50px 0;
+  padding: 60px 0;
 }
 
 .padding-small{
@@ -161,6 +160,7 @@ main{
   font-size: 70px;
   padding-top: 80px;
   padding-bottom: 30px;
+  font-weight: 700;
 }
 
 .jumbotron-text{
@@ -170,7 +170,7 @@ main{
 .jumbotron-img{
   position: relative;
   width: 70%;
-  bottom: -0.625rem;
+  bottom: -0.325rem;
   right: -3.625rem;
 
 }
@@ -230,7 +230,7 @@ main{
 }
 
 /* Buy Cols */
-.buy-cols{
+.three-cols{
   width: calc((100% / 3) - 40px);
 }
 
@@ -255,7 +255,8 @@ main{
   width: 60px;
   margin-bottom: 30px;
 }
-.fa-ul li:last-child{
+
+.recap-ul li:last-child{
   padding-bottom: 120px;
 }
 
@@ -286,6 +287,10 @@ main{
 
 .color-blue{
   color: #2170ff;
+}
+
+.color-black{
+  color: black;
 }
 
 .fa-ul{
