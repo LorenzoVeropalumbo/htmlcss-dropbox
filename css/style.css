@@ -27,7 +27,14 @@ p{
 span{
   font-size: 15px;
 }
+/* Border */
+.col-border{
+  border: 1px solid #e8e8e9;
+}
 
+.question-border{
+  border-bottom: 1px solid #dcdcde;
+}
 /* Buttons */
 .buttons{
   display: inline-block;
@@ -59,10 +66,6 @@ span{
 .indent-col{
   justify-content: space-between;
   flex-wrap: wrap;
-}
-
-.col-border{
-  border: 1px solid #e8e8e9;
 }
 
 .indent-img{
@@ -124,12 +127,19 @@ span{
 }
 
 /* Padding */
+.padding-max{
+  padding: 130px 0;
+}
 .padding-big{
   padding: 60px 0;
 }
 
 .padding-small{
   padding: 40px 0;
+}
+
+.padding-min{
+  padding: 30px 0;
 }
 
 .col-padding{
@@ -333,6 +343,14 @@ main{
   width: 130px;
 }
 
+/* Frequently asked */
+.question-text span{
+  display: block;
+}
+
+.question-text span:first-child{
+  border-top: 1px solid #dcdcde;
+}
 /* FONT AWSOME LIST */
 .fa-ul{
   margin: 0 1.5em;
