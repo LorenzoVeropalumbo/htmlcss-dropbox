@@ -27,6 +27,7 @@ p{
 span{
   font-size: 15px;
 }
+
 /* Border */
 .col-border{
   border: 1px solid #e8e8e9;
@@ -35,6 +36,7 @@ span{
 .question-border{
   border-bottom: 1px solid #dcdcde;
 }
+
 /* Buttons */
 .buttons{
   display: inline-block;
@@ -108,6 +110,7 @@ span{
 .min-col{
   width: 20%;
 }
+
 .col-title{
   border-bottom: 1px solid #e8e8e9;
   text-align: center;
@@ -115,6 +118,7 @@ span{
 }
 
 /* Font */
+
 .font-max{
   font-size: 40px;
   font-weight: 900;
@@ -137,6 +141,7 @@ span{
 }
 
 /* Padding */
+
 .padding-max{
   padding: 130px 0;
 }
@@ -251,6 +256,7 @@ main{
   padding-bottom: 30px;
 }
 
+/* Col-padding */
 .col-padding li{
   padding: 20px 0 0;
   font-size: 15px;
@@ -364,6 +370,7 @@ main{
 .question-text span{
   display: inline;
 }
+
 /* FONT AWSOME LIST */
 .fa-ul{
   margin: 0 1.5em;
@@ -408,7 +415,7 @@ footer span{
 
 /* Lenguage */
 .lenguage *{
-  vertical-align: middle;
+  vertical-align: bottom;
 }
 /* COLORS */
 .bg-blue{
