@@ -195,7 +195,7 @@ header a{
   color: inherit;
 }
 
-header li a:hover{
+.hover-footer:hover{
   line-height: 80px;
   border-bottom: 2px solid black;
 }
@@ -208,7 +208,7 @@ header hr{
 }
 
 header img{
-  width: 150px;
+  width: 130px;
   display: flex;
 }
 
