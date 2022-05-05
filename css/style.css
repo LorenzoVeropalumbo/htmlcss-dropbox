@@ -36,7 +36,6 @@ span{
 .question-border{
   border-bottom: 1px solid #dcdcde;
 }
-
 /* Buttons */
 .buttons{
   display: inline-block;
@@ -44,6 +43,7 @@ span{
   border-width: 1px;
   padding: 7px 15px;
   margin-top: 4px;
+  line-height: 15px;
 }
 
 /* Display */
@@ -140,6 +140,12 @@ span{
   font-weight: 700;
 }
 
+/* Arrow over */
+.arrow-font{
+  font-size: 60px;
+  line-height: 30px;
+  color: #000000;
+}
 /* Padding */
 
 .padding-max{
@@ -180,12 +186,30 @@ header {
 
 header ul{
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
-header a {
+header a{
   text-decoration: none;
   color: inherit;
+}
+
+header li a:hover{
+  line-height: 80px;
+  border-bottom: 2px solid black;
+}
+
+header hr{
+  border: none;
+  height: 1px;
+  background-color: #d0d0d3;
+  color: #d0d0d3;
+}
+
+header img{
+  width: 150px;
+  display: flex;
 }
 
 /* Nav */
@@ -200,6 +224,8 @@ nav {
 .header-menu li {
   margin-left: 15px;
   margin-right: 15px;
+  line-height: 80px;
+  
 }
 
 /* MAIN */
@@ -273,13 +299,19 @@ main{
 .col-padding hr{
   width: 60px;
   margin-bottom: 30px;
-  border-top: 1px solid #dedee0;
+  border: none;
+  height: 1px;
+  background-color: #d0d0d3;
+  color: #d0d0d3;
 }
 
 .col-padding-lat hr{
   width: 60px;
   margin-bottom: 30px;
-  border-top: 1px solid #dedee0;
+  border: none;
+  height: 1px;
+  background-color: #d0d0d3;
+  color: #d0d0d3;
 }
 
 .recap-ul li:last-child{
@@ -363,12 +395,9 @@ main{
 #border-top{
   border-top: 1px solid #dcdcde;
 }
+
 .question-text i{
   align-self: center;
-}
-
-.question-text span{
-  display: inline;
 }
 
 /* FONT AWSOME LIST */
@@ -402,9 +431,11 @@ footer ul{
 footer hr{
   width: 120px;
   margin: 50px 0;
-  border-top: 1px solid #bfbfbf;
+  border: none;
+  height: 1px;
+  background-color: #d0d0d3;
+  color: #d0d0d3;
 }
-
 footer .padding-big{
   padding: 70px;
 }
@@ -415,7 +446,7 @@ footer span{
 
 /* Lenguage */
 .lenguage *{
-  vertical-align: bottom;
+  vertical-align: middle;
 }
 /* COLORS */
 .bg-blue{
